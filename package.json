@@ -1,0 +1,17 @@
+{
+  "name": "blockchain-init",
+  "version": "1.0.0",
+  "description": "Blockchain fundamentals",
+  "private": true,
+  "scripts": {
+    "hash": "node 01-hash.js",
+    "block": "node 02-block.js",
+    "chain": "node 03-chain.js",
+    "pow": "node 04-proof-of-work.js",
+    "transactions": "node 05-transactions.js",
+    "network": "node 06-network.js",
+    "all": "node 01-hash.js && node 02-block.js && node 03-chain.js && node 04-proof-of-work.js && node 05-transactions.js && node 06-network.js"
+  },
+  "keywords": ["blockchain", "education", "imt"],
+  "license": "MIT"
+}
